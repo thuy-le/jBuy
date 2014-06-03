@@ -1,0 +1,49 @@
+[Assignment Title: Web Programming Assignment]
+[Assignment Number: 1, COSC2430, Web Programming]
+Copyright [2012] [Le Huynh Ngoc Thuy, S3372751, Huynh Phung Cao Anh, S3357672]
+RMIT International University Vietnam
+----------------------------------------------------------------
+This assignment includes software developed by the above mentioned students
+
+
+----------------------------------------------------------------
+This website uses:
+
+jQuery
+The original software is available from
+http://jquery.com/
+
+Uploadify
+The original software is available from
+http://www.uploadify.com/
+
+jqFancyTransitions
+The original software is available from
+http://workshop.rs/projects/jqfancytransitions/
+
+coundown.js
+The original software is available from
+http://coundownjs.org
+
+Quick Pager jquery plugin
+Copyright (C) 2011 by Dan Drayne
+The original software is available from
+http://blog.geekyjohn.com/
+
+jQuery UI
+The original software is available from
+http://jQueryUI.com
+
+ColorBox v1.3.19 - jQuery lightbox plugin
+Copyright 2011 Jack Moore 
+The original software is available from
+http://jacklmoore.com
+
+jQuery Validation Plugin
+The original software is available from
+http://bassistance.de/jquery-plugins/jquery-plugin-validation/
+
+Cufon
+Copyright (c) 2009 Simo Kinnunen.
+The original software is available from
+http://cufon.shoqolate.com

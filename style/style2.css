@@ -1,0 +1,466 @@
+@charset "utf-8";
+body {
+	font-family:"Century Gothic", Tahoma, Sans-Serif;
+	background: #302c31;
+	margin: 0;
+	padding: 0;
+	color: #1e0226;
+	font-size:14px;
+}
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.container {
+	min-width: 960px;
+	margin:0;
+	padding:0;
+}
+
+/* ---------------------------------------- topbar ---------------------------------------- */
+.top{
+	min-width:960px; 
+	color:#f6ecf8; 
+	background:url(../images/topbg.png) repeat-x; 
+	height:47px; 
+	z-index:10; 
+	padding-right:5px;
+}
+
+.top a{
+	text-decoration:none; 
+	color:#f6ecf8; 
+	font-weight:600;
+}
+
+.top a:hover{
+	color:#bfe0d0;
+}
+
+.top p{
+	width:955px; 
+	margin:0 auto; 
+	padding-top:9px; 
+	text-align:right;
+}
+
+/* ---------------------------------------- top ---------------------------------------- */
+
+
+/* ---------------------------------------- wrapper ---------------------------------------- */
+
+.wrapper{
+	width:960px; 
+	margin:0 auto; 
+	background:#f6ecf8;
+	height:2150px; 
+}
+
+/* ---------------------------------------- header ---------------------------------------- */
+.header {
+	width:960px; margin:0 auto;
+	margin-top:-6px; z-index:-1; position:relative;
+	background:#f6ecf8;
+}
+.header img{margin:15px 15px;}
+/* ---------------------------------------- header ---------------------------------------- */
+
+
+/* ---------------------------------------- menu ---------------------------------------- */
+.menu{
+	width:960px;
+	float:left; 
+	padding-left:15px; 
+	z-index:11;
+	height:35px;
+}
+
+.menu ul{
+	list-style-type:none;
+}
+
+.menu li{
+	display:inline;
+}
+
+.menu a{ 
+	color:#f6ecf8; 
+	padding-top:10px;
+	background:url(../images/menuBg.png) -8px -5px;  
+	width:104px; 
+	height:30px; 
+	float:left;
+	text-decoration:none;
+	text-align:center;
+	margin-right:2px;
+}
+
+.menu a:hover, .menu a.current{
+	background:url(../images/menuBg_hover.png) -8px -5px;
+}
+
+.desc{width:915px; height:26px; background:url(../images/descBg.png) -1px; float:left;
+padding:8px 0 0 45px; color:#f6ecf8; margin-top:1px;
+}
+/* ---------------------------------------- menu ---------------------------------------- */
+
+
+/* ---------------------------------------- banner ---------------------------------------- */
+.discount{
+	width:224px; 
+	height:207px; 
+	background:url(../images/discount.png) no-repeat; 
+	position:relative; 
+	top:0px; 
+	color:#f6ecf8;
+	z-index:11;
+}
+
+.discount h1{
+	font-size:8em; 
+	font-weight:bold; 
+	padding-top:25px;
+}
+
+.banner{
+	width:960px; 
+	border-top:1px solid #470f67; 
+	border-bottom:1px solid #470f67; 
+	float:left; 
+	height:348px; 
+}
+
+.banner div{position:absolute; z-index:8}
+div.active{z-index:10;}
+div.last-active{z-index:9;}
+
+.description{height:50px; width:930px; margin-top:-70px; background:url(../images/dBg.png); color:#fff; padding:10px 15px;}
+.description h1{font-size:1.2em; margin:0; padding:0; font-weight:normal;}
+/* ---------------------------------------- banner ---------------------------------------- */
+
+
+/* ---------------------------------------- sidebar ---------------------------------------- */
+.sidebar1 {
+	float: right;
+	width: 220px;
+	height:1720px;
+	background:#4f3555;
+	padding-top:10px; 
+	color:#f6ecf8;
+}
+
+.sidebar1 h1{
+	width:190px; 
+	color:#e8e1ea; 
+	font-size:1.2em; 
+	padding-left:17px;
+	margin:20px 0 5px 15px; 
+	font-weight:normal;
+	background:url(../images/sideHeadBg.png) 0 4px no-repeat;
+}
+
+.sidebar1 img{
+	padding:0; 
+	margin:0; 
+	border-top:1px solid #1e0226; 
+	border-bottom:1px solid #1e0226;
+}
+
+.sidebar1 .desc{
+	margin:0;
+	height:22px; 
+	width:220px; 
+	background:url(../images/discountBg3.png);
+	position:relative; 
+	margin-top:-36px; 
+	z-index:110; 
+	padding:7px 0; 
+	text-align:center; 
+	font-size:1.3em; 
+	font-weight:600;
+}
+
+.sidebar1 p{
+	padding-top:7px;	
+}
+
+.sidebar1 a.buy{
+	padding:2px 15px 5px 13px; 
+	color:#FFF; 
+	background:url(../images/btn1Bg.png) -1px -1px no-repeat; 
+	text-decoration:none; 
+	float:right; 
+	margin-right:10px; 
+	margin-top:0;
+}
+
+.sidebar1 a.details{
+	padding:2px 15px 5px 13px; 
+	color:#FFF; 
+	background:url(../images/btn4Bg.png) -1px -1px no-repeat; 
+	text-decoration:none; 
+	float:right; 
+	margin-right:10px; 
+	margin-top:0;
+}
+
+.sidebar1 a.details:hover{
+	background:url(../images/btn4Bg_hover.png) -1px -1px no-repeat;
+}
+
+.sidebar1 hr{
+	border:0; 
+	border-bottom:1px dashed #63716a; 
+	margin-top:15px;
+}
+
+.sidebar1 a.buy:hover{
+	background:url(../images/btn1Bg_hover.png) -1px -1px no-repeat;
+}
+/* ---------------------------------------- sidebar ---------------------------------------- */
+
+
+/* ---------------------------------------- content ---------------------------------------- */
+.content {
+	margin:0;
+	padding: 10px 0;
+	width: 740px;
+	float: right;
+}
+
+.content h1{
+	font-size:1.5em; 
+	color:#466255; 
+	font-weight:bold; 
+	padding-left:40px; 
+	font-size:2.4em; 
+	margin:0; 
+	padding-top:10px;
+}
+
+.content a.h1{
+	color:#466255;
+}
+
+.content .deals{
+	width:664px; 
+	height:773px; 
+	background:url(../images/WP_03.png); 
+	margin-left:38px; 
+	margin-bottom:30px; 
+	padding-top:7px;
+}
+
+.content .deals h2{
+	padding:10px 0 0 0; 
+	margin:0;
+}
+
+.content .deals a.h2{
+	text-decoration:none; 
+	color:#4d186a; 
+	font-weight:normal;
+}
+
+.content .deals a.h2:hover{
+	color:#2c0741;
+}
+
+
+.content .deals .left{
+	padding:0; 
+	margin:0;
+	padding-left:10px; 
+	float:left; 
+	width:400px; 
+	height:109px; 
+	overflow:hidden;
+}
+
+.content .deals .left p{padding:5px 2px; margin:0;}
+
+.content .deals img{
+	margin:0 7px; 
+	padding:0; 
+	margin-bottom:0;
+}
+
+.content .deals .right{
+	width:220px; 
+	float:right; 
+	text-align:right; 
+	margin-right:20px; 
+	margin-top:10px; 
+	font-size:1.1em;
+}
+
+.content .deals .right p{
+	margin:0; 
+	padding:0;
+}
+
+.content .deals .right .label{
+	width:150px; 
+	font-weight:600;
+	float:left; 
+	color:#584961;
+}
+
+.content .deals .right .text{
+	float:right;
+}
+
+.content .deals .right .buy{
+	width:55px; 
+	height:30px;
+	text-align:center; 
+	color:#FFF; 
+	background:url(../images/btn2Bg.png) no-repeat; 
+	text-decoration:none; 
+	float:right; 
+	margin-right:0;
+	border:0; 
+	margin-top:3px; 
+	padding-bottom:3px;
+}
+
+.content .deals .right .buy:hover{
+	background:url(../images/btn2Bg_hover.png) no-repeat;
+}
+
+.content .deals .right .details{
+	width:70px; 
+	text-align:center; 
+	height:30px; 
+	color:#FFF; 
+	background:url(../images/btn3Bg.png) no-repeat; 
+	text-decoration:none; 
+	float:right; 
+	margin-right:0;
+	border:0;
+	margin-top:3px; 
+	padding-bottom:3px;
+}
+
+.content .deals .right .details:hover{
+	background:url(../images/btn3Bg_hover.png) no-repeat;
+}
+
+.discount2{
+	background:url(../images/discount3.png); 
+	width:154px; 
+	height:146px; 
+	position:relative; 
+	margin-top:-145px; 
+	left:510px; 
+	margin-bottom:0; 
+	z-index:110;
+}
+
+.discount2 p{
+	padding-top:40px; 
+	padding-left:20px; 
+	font-size:5em; 
+	color:#f6ecf8;
+}
+
+.content .deals hr{
+	width:97%; 
+	border:0; 
+	border-bottom:1px dashed #b29dbe; 
+	padding-top:5px; 
+	margin-bottom:15px;
+}
+
+a.more{
+	font-size:1.2em; 
+	background:url(../images/arrow.png) 1px 2px no-repeat; 
+	padding-left:22px; 
+	padding-bottom:10px; 
+	text-decoration:none; 
+	color:#673e7e; 
+	margin-right:20px; 
+	font-weight:600; 
+	float:right;
+}
+
+a.more:hover{
+	color:#793a9d;
+	background:url(../images/arrow2.png) 1px 2px no-repeat;
+}
+
+
+/* ---------------------------------------- content ---------------------------------------- */
+
+/* ---------------------------------------- footer ---------------------------------------- */
+
+.footer {
+	background: #1e0226;
+	position: relative;
+	height:52px;
+	clear: both; 
+	color:#f6ecf8;
+	padding:0; margin:0;
+}
+.footer .cnt{width:960px; margin:0 auto; padding-top:13px; padding-bottom:0; margin-bottom:0; text-align:center; font-size:1.2em;}
+.footer p.left{float:left; width:480px; padding:0;}
+.footer p.right{float:right; width:300px; padding:0; text-align:right;}
+/* ---------------------------------------- footer ---------------------------------------- */
+
+
+
+/* ---------------------------------------- extra nav ---------------------------------------- */
+
+#nav{
+	width:30px; height:75px; background:url(../images/nav1Bg_hover.png) no-repeat; position:fixed; top:192px; left:50%; margin-left:-510px;}
+#nav2{
+	width:30px; height:75px; background:url(../images/nav2Bg_hover.png) no-repeat; position:fixed; top:270px; left:50%; margin-left:-510px;}
+#nav:hover{background:url(../images/nav1Bg.png) no-repeat;}
+#nav2:hover{background:url(../images/nav2Bg.png) no-repeat;}
+/* ---------------------------------------- extra nav ---------------------------------------- */
+
+
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.clearfloat2 { 
+	clear:both;
+	height:17px;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+

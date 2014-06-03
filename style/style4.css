@@ -1,0 +1,809 @@
+@charset "utf-8";
+body {
+	font-family:"Century Gothic",Tahoma, Sans-Serif;
+	background: url(../images2/bg4.jpg) center fixed;
+	margin: 0;
+	padding: 0;
+	color: #0f3067;
+	font-size:14px;
+}
+
+*html{padding:0; margin:0;	width:99%;}
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+}
+
+a{cursor:pointer;}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.container {
+	min-width: 960px;
+	margin:0;
+	padding:0;
+}
+
+/* ---------------------------------------- top ---------------------------------------- */
+.top{
+	min-width:960px; 
+	color:#fdf5f8; 
+	background-image:url(../images3/topbg.png);
+	background-repeat: repeat-x; 
+	height:43px; 
+	z-index:10; 
+}
+
+.top a:link, .top a:visited{
+	text-decoration:none; 
+	color:#fdf5f8; 
+	font-weight:600;
+}
+
+.top a:hover{
+	color:#fdf0f5;
+}
+
+.top p{
+	width:955px; 
+	position:relative;
+	margin-left:-480px;
+	left:50%;
+	padding-top:9px; 
+	text-align:right;
+}
+
+/* ---------------------------------------- top ---------------------------------------- */
+
+
+/* ---------------------------------------- wrapper ---------------------------------------- */
+
+#wrapper{
+	width:960px;  
+	background:url(../images2/contentBg.png);
+	float:left;
+	position:relative;
+	left:50%;
+	margin-left:-470px;
+}
+
+/* ---------------------------------------- header ---------------------------------------- */
+.header {
+	width:960px;
+/*	height:84px;*/
+	position:relative;
+	left:50%;
+	margin-left:-470px;
+	margin-top:-3px; z-index:0; position:relative;
+	background:url(../images2/contentBg.png);
+}
+.header img{margin:15px;}
+/* ---------------------------------------- header ---------------------------------------- */
+
+
+/* ---------------------------------------- menu ---------------------------------------- */
+.menu{
+	width:960px;
+	float:left; 
+	padding-left:15px; 
+	z-index:11;
+	height:35px;
+}
+
+.menu ul{
+	list-style-type:none;
+}
+
+.menu li{
+	display:inline;
+}
+
+.menu a:link, .menu a:visited{ 
+	color:#0b599c; 
+	padding-top:10px;
+	background:url(../images3/menuBg_hover.png) -8px -5px;  
+	width:104px; 
+	height:30px; 
+	float:left;
+	text-decoration:none;
+	text-align:center;
+	padding-right:2px;
+	margin-right:2px;
+	font-weight:600;
+}
+
+.menu a:hover, .menu a.current:link, .menu a.current:visited{
+	color:white;
+	font-weight:normal;
+	background:url(../images3/menuBg.png) -8px -5px;
+}
+
+.desc{width:960px; height:34px; background:url(../images3/descBg.png); float:left;color:#ffffff;}
+.desc p{margin-left:30px; margin-top:8px;}
+/* ---------------------------------------- menu ---------------------------------------- */
+
+
+/* ---------------------------------------- banner ---------------------------------------- */
+.discount{
+	width:224px; 
+	height:207px; 
+	background:url(../images3/discount.png) no-repeat; 
+	position:relative;
+	float:left; 
+	margin-top:-69px;; 
+	color:#075781;
+	z-index:11;
+}
+
+.discount h1{
+	font-size:4.5em; 
+	font-weight:bold; 
+	padding-top:37px;
+	color:#075781;
+}
+
+.banner{
+	width:960px; 
+	float:left; 
+	height:348px; 
+}
+
+.banner div{position:absolute; z-index:8;top:69px; left:0;}
+div.active{z-index:10; position:absolute; top:69px;}
+div.last-active{z-index:9; position:absolute; top:69px;}
+.banner img{width:960px; height:348px;}
+
+.description{height:70px; width:960px; position:relative; margin-top:210px; background:url(../images3/dBg.png); color:#ffffff;}
+.description h1{font-size:1.4em; margin:0; margin-left:10px; padding:0; font-weight:600;margin-top:10px; color:#075781}
+.description p{padding:0;float:left; margin-left:10px;}
+
+.next{width:40px; height:70px; background:url(../images2/arrow3.png) no-repeat; z-index:113; margin-top:45px;margin-left:875px; cursor:pointer;}
+div.next:hover{background:url(../images2/arrow4.png);}
+div.next:active{background:url(../images2/arrow5.png);}
+/* ---------------------------------------- banner ---------------------------------------- */
+
+
+/* ---------------------------------------- sidebar ---------------------------------------- */
+#sidebar1 {
+	float: right;
+	width: 220px;
+	background:url(../images3/sidebarBg.png);
+	padding-top:10px; 
+	color:#044364;
+	overflow:hidden;
+	min-height:1000px;
+}
+
+#sidebar1 h1{
+	width:190px; 
+	font-size:1.2em; 
+	padding-left:17px;
+	margin:20px 0 5px 15px; 
+	font-weight:normal;
+	background:url(../images3/sideHeadBg.png) 0 4px no-repeat;
+}
+
+#sidebar1 img{
+	padding:0; 
+	margin:0; 
+	border-top:1px solid #203456; 
+	border-bottom:1px solid #203456;
+}
+
+#sidebar1 .desc{
+	margin:0;
+	height:62px; 
+	width:85px; 
+	background:url(../images2/discountBg2.png);
+	position:relative; 
+	margin-top:-120px;
+	float:right; 
+	z-index:110; 
+	padding-top:65px;
+	padding-left:25px; 
+	text-align:center; 
+	font-size:2.5em; 
+	font-weight:600;
+}
+
+#sidebar1 a.buy{
+	width:50px;
+	height:30px;
+	padding-top:3px;
+	text-align:center;
+	color:#e6ecfb; 
+	background:url(../images3/btn1Bg_hover.png) -1px -1px no-repeat; 
+	text-decoration:none; 
+	float:right; 
+	margin-right:15px; 
+	margin-top:5px;
+}
+
+#sidebar1 a.details{
+	text-align:center;
+	width:75px;
+	height:30px;
+	padding-top:3px;
+	color:#e6ecfb; 
+	background:url(../images3/btn4Bg_hover.png) -1px -1px no-repeat; 
+	text-decoration:none; 
+	float:right; 
+	margin-right:5px; 
+	margin-top:5px;
+}
+
+#sidebar1 p{
+	padding-top:7px;	
+}
+#sidebar1 a.details:hover{
+	background:url(../images3/btn4Bg.png) -1px -1px no-repeat;
+}
+
+#sidebar1 .hr1{
+	border:0; 
+	height:2px;
+	border-bottom:1px dashed #63748f; 
+	margin-top:15px;
+}
+
+#sidebar1 a.buy:hover{
+	background:url(../images3/btn1Bg.png) -1px -1px no-repeat;
+}
+/* ---------------------------------------- sidebar ---------------------------------------- */
+
+
+/* ---------------------------------------- content ---------------------------------------- */
+.content {
+	margin:0;
+	padding: 10px 0;
+	width: 740px;
+	float: right;
+}
+
+.content .ctop{
+	width:664px;
+	height:7px;
+	padding:0;
+	margin:0;	
+	margin-left:38px;
+	background:url(../images2/WP_top.png) no-repeat; 
+}
+
+.content .cbot{
+	width:664px;
+	height:17px;
+	padding:0;
+	margin:0 0 15px 38px;
+	background:url(../images2/WP_bot.png) no-repeat; 
+}
+
+.content .deals, .content #deals{
+	padding:0;
+	margin:0;
+	width:664px; 
+	padding-bottom:30px;
+	background:url(../images2/WP_03.png) repeat-y; 
+	margin-left:38px; 
+	min-height:800px;
+}
+
+.content h1{
+	font-size:1.5em; 
+	font-weight:normal;
+	text-decoration:none; 
+	padding-left:40px; 
+	font-size:2.4em; 
+	margin:0; 
+	padding-top:10px;
+}
+
+.content a.h1{
+	color:#c50866;
+	text-decoration:none;
+}
+
+
+
+.content .deals h2{
+	padding:0;
+	margin:0;
+}
+
+.content .deals a.h2{
+	text-decoration:none; 
+	color:#330355; 
+	font-weight:normal;
+}
+
+.content .deals a.h2:hover{
+	color:#330355;
+}
+
+.content .deals .left p{padding:0 2px; margin:0;}
+
+.content .deals .left{
+	padding:0; 
+	margin:0;
+	padding-left:10px; 
+	float:left; 
+	width:364px;  
+	overflow:hidden;
+}
+
+.content .deals img{
+	margin:2px 9px; 
+	padding:0; 
+	margin-bottom:0;
+}
+
+.content .deals .right{
+	width:255px; 
+	float:right; 
+	text-align:right;  
+	font-size:1.1em;
+	padding-right:15px;
+}
+
+.content .deals .right p{
+	margin:0; 
+	padding:0;
+}
+
+.content .deals .right .label{
+	width:140px; 
+	font-weight:600;
+	float:left; 
+	color:#2a4066;
+}
+
+.content .deals .right .text{
+	float:left;
+	width:110px;
+	text-align:right;
+}
+
+.content .deals .right a.buy{
+	width:50px; 
+	height:30px;
+	text-align:center; 
+	color:#FFF; 
+	background:url(../images3/btn2Bg.png) no-repeat; 
+	text-decoration:none; 
+	float:right; 
+	border:0; 
+	margin-top:6px; 
+	padding-bottom:3px;
+	padding-top:5px;
+	margin:1px;
+}
+
+.delbutton{
+	width:75px; 
+	height:30px;
+	text-align:center; 
+	color:#FFF; 
+	background:url(../images3/btn3Bg.png) no-repeat; 
+	text-decoration:none; 
+	float:right; 
+	border:0; 
+	margin-top:6px; 
+	font-size:1em;
+	font-weight:normal;
+	margin:1px;
+}
+
+.content .deals .right .buy:hover{
+	background:url(../images3/btn2Bg_hover.png) no-repeat;
+}
+
+.content .deals .right a.details{
+	width:75px; 
+	height:30px;
+	text-align:center; 
+	color:#FFF; 
+	background:url(../images3/btn3Bg.png) no-repeat; 
+	text-decoration:none; 
+	float:right; 
+	border:0; 
+	margin-top:6px; 
+	padding-bottom:3px;
+	padding-top:5px;
+	margin:1px;
+}
+
+.content .deals .right .details:hover, .delbutton:hover{
+	background:url(../images3/btn3Bg_hover.png) no-repeat;
+}
+
+.discount2{
+	background:url(../images3/discount3.png); 
+	width:154px; 
+	height:146px; 
+	position:relative; 
+	margin-top:-135px; 
+	left:510px; 
+	margin-bottom:0; 
+	z-index:110;
+}
+
+.discount2 p{
+	padding-top:52px; 
+	padding-left:40px; 
+	font-size:3em; 
+	color:#e6ecfb;
+}
+
+.content .deals .hr2{
+	width:96%; 
+	border:0; 
+	border-bottom:1px dashed #7688a7; 
+	height:20px;
+	margin-left:12px; 
+	margin-bottom:20px;
+}
+
+a.more:link, a.more:visited{
+	font-size:1.2em; 
+	background:url(../images3/arrow.png) 1px 2px no-repeat; 
+	padding-left:22px;  
+	text-decoration:none; 
+	color:#0f3067; 
+	margin-right:20px; 
+	font-weight:600; 
+	float:right;
+}
+
+a.more:hover{
+	color:#2e528d;
+	background:url(../images3/arrow2.png) 1px 2px no-repeat;
+}
+
+
+/* ---------------------------------------- content ---------------------------------------- */
+
+/* ---------------------------------------- footer ---------------------------------------- */
+
+.footer {
+	background: url(../images3/footerBg.png);
+	position: relative;
+	height:52px;
+	clear: both; 
+	color:#f6ecf8;
+	padding:0; margin:0;
+}
+
+.footer .cnt{width:960px; margin:0 auto; padding-top:13px; padding-bottom:0; margin-bottom:0; text-align:center; font-size:1.2em;}
+.footer p.left{float:left; width:480px; padding:0;}
+.footer p.right{float:right; width:300px; padding:0; text-align:right;}
+/* ---------------------------------------- footer ---------------------------------------- */
+
+
+
+/* ---------------------------------------- extra nav ---------------------------------------- */
+
+#nav{
+	width:30px; height:75px; background:url(../images3/nav1Bg_hover.png) no-repeat; position:fixed; top:192px; left:50%; margin-left:-500px;}
+#nav2{
+	width:30px; height:75px; background:url(../images3/nav2Bg_hover.png) no-repeat; position:fixed; top:268px; left:50%; margin-left:-500px;}
+#nav:hover{background:url(../images3/nav1Bg.png) no-repeat;}
+#nav2:hover{background:url(../images3/nav2Bg.png) no-repeat;}
+/* ---------------------------------------- extra nav ---------------------------------------- */
+
+
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.clearfloat2 { 
+	clear:both;
+	height:17px;
+	font-size: 1px;
+	line-height: 0px;
+}
+.clearfloat3 { 
+	clear:both;
+	height:15px;
+	font-size: 1px;
+	line-height: 0px;
+	margin-bottom:5px;
+}
+
+.adddeal label{width:100px; float:left;}
+
+.adddealform{float:left; width:100%; height:20px; background:#999;}
+
+.dealnote{margin-left:15px; margin-top:20px; padding:10px 0; border-top:#69F 1px dashed; border-bottom:#69F 1px dashed; width:95%; margin-bottom:15px;}
+.dealnote label{font-weight:600; color:#36F;}
+.dealnote p{margin:0; padding:0;}
+.dealdescription{margin-top:15px;}
+.dealdescription .dleft{width:400px;float:left; height:auto; padding:5px 5px; overflow:hidden;}
+.dealdescription .dright{width:200px;float:right; margin-right:15px;}
+.dealdescription .dright div.time{width:195px; height:26px; padding-top:4px; color:#143f87; margin:0;padding-left:5px;font-size:1.3em; font-weight:600; float:left; margin-top:10px; border-top:2px solid #143f87; border-bottom:2px solid #143f87;}
+.dealdescription .dright div.price{float:left;width:110px;height:50px; float:left; padding-top:7px; text-align:left; margin:0;}
+.dealdescription .dright div.buyer{float:left;width:90px;height:50px; float:left; padding-top:7px; text-align:left;}
+.dealdescription .dright div.price .ptop, .dealdescription .dright div.buyer .ptop{height:17px; margin:0; padding:0; padding-top:4px; font-size:1.2em; padding-left:5px; color:#0f3067;}
+.dealdescription .dright div.timetop{height:30px; margin:0; padding:0; padding-top:7px; font-size:1.2em; padding-left:5px; color:#0f3067;}
+.dealdescription .dright div.price .pbot{height:28px;background-color:#143f87; padding:0;} 
+.dealdescription .dright div.price .pbot{border-top:2px solid #4385f4;}
+.dealdescription .dright div.buyer .pbot{height:28px;background-color:#940909; padding:0;}
+.dealdescription .dright div.buyer .pbot{border-top:2px solid #f33333;}
+.dealdescription .dright div.price h4,.dealdescription .dright div.buyer h4{font-size:1.3em; color:#fff; float:left; padding:0; margin:0;margin-top:1px; margin-left:5px;}
+
+.dealdescription .dright div.avai{width:50px; height:40px; float:left;}
+.dealdescription .dright div.buynow{width:150px; height:40px;float:left;}
+
+.buynowbtn{
+	width:150px; 
+	height:40px;
+	text-align:center; 
+	color:#FFF; 
+	background:url(../images3/btn5Bg.png) no-repeat; 
+	text-decoration:none; 
+	float:left; 
+	border:0; 
+	font-size:1.3em;
+	padding-bottom:3px;
+}
+
+#messageBox{clear:both; margin-left:17px;}
+li{list-style-type:none;}
+
+.pricetxt, #dealnametxt, #datepicker, #maxbuyers{color:#3b70f7;height:25px; font-family:"century gothic", sans-serif; font-size:1.05em; border:1px solid #8bb1e1; padding:0 5px; font-weight:600; width:180px;}
+
+#dealnametxt{width:250px;}
+
+form{padding-right:40px;}
+#adddealbtn{float:right;}
+#resetbtn{float:right; display:inline;}
+
+#nextStep{float:right; }
+
+#changeBtn{
+	clear:both;
+	width:110px; 
+	height:29px;
+	text-align:center; 
+	color:#FFF; 
+	background:url(../images2/btn6.png) no-repeat; 
+	text-decoration:none; 
+	margin-right:30px; 
+	border:0; 
+	margin-top:6px; 
+	font-size:1em;
+	font-weight:normal;
+	margin:1px;	
+	float:right;
+	margin-right:-10px;
+	margin-top:5px;
+	margin-bottom:10px;
+	display:inline;
+}
+
+a.bannerh1{color:#ffffff; text-decoration:none;}
+
+
+label.welcome{font-size:1.1em; margin-top:2px; float:right;}
+
+label.divider{font-size:.9em; float:right; margin-right:8px; margin-left:8px; margin-top:2px;}
+
+.divLeft{float:left; width:292px; margin-left:15px;}
+
+.sDiv{width:100%; margin-top:0; float:left;  padding:10px 15px;
+background:url(../images2/m1.png);
+}
+.subMenu{padding:5px 20px;}
+.sDiv:first-child, .subDiv:first-child{margin-top:57px;}
+.sDiv:hover, #current{ background:url(../images2/m2.png); cursor:pointer;}
+.sDiv a{font-size:1.2em; color:#e1ecff; font-weight:600; text-decoration:none;
+padding-left:15px;
+}
+.subMenu:hover{color: #7f0606;}
+
+.subMenu{font-size:1.15em; color:#061d7f; text-decoration:none; 
+padding-left:35px; font-weight:600;
+}
+
+#addD{margin-top:57px;}
+
+.catContainer{margin-left:15px;}
+
+#addCatBtn{
+	width:150px; 
+	height:40px;
+	text-align:center; 
+	color:#FFF; 
+	background:url(../images2/btn5Bg.png) no-repeat; 
+	font-size:1.2em;
+	font-weight:normal;
+	float:left;
+	border:0;
+	margin-left:15px;
+
+}
+#addCatBtn:hover{background:url(../images2/btn5Bghover.png) no-repeat;}
+
+#catNameTxt{color:#3b70f7;height:30px; font-family:"century gothic", sans-serif; font-size:1.2em; border:2px solid #8bb1e1; padding:0 5px; font-weight:600; width:350px; float:left; margin-top:3px;}
+
+
+#catList{width:620px; margin-left:3px;border-top:1px solid #0a4895;border-left:1px solid #0a4895;}
+
+.divIDHead,.divNameHead,.divDeleteHead, .divUpdateHead{background:#0a4895; font-size:1.2em; color:#ffffff; font-weight:600;}
+.divIDHead,.divNameHead,.divDeleteHead, .divUpdateHead, .divID,.divName,.divDelete, .divUpdate{
+	float:left; padding:5px 10px; margin:0; border-right:1px solid #0a4895;
+	border-bottom:1px solid #0a4895;
+	}
+	
+.divIDHead, .divID{width:70px;}
+.divNameHead, .divName{width:312px;}
+.divDeleteHead, .divDelete, .divUpdateHead, .divUpdate{width:77px;}
+
+.tableRow{width:620px; background:#daeafb; height:30px; font-size:1.1em;}
+
+.tableRow a{text-decoration:none; color:#006; cursor:pointer;}
+.tableRow a:hover{text-decoration:underline;}
+.validate{color:#c41515; margin-bottom:10px;}
+
+/*Paging css --------------------------------------------------------------*/
+#content p{text-indent:20px;text-align:justify;}
+#pagingControls ul{display:inline;padding-left:0.5em}
+#pagingControls li{display:inline;padding:0 0.5em}
+ul.simplePagerNav li{
+        display:inline;
+    }
+    
+    ul.simplePagerNav li a{
+        text-decoration: none;
+        float:left;
+        margin-left:20px;
+        color:#0a2795;
+        font-size:1.1em;
+        font-weight:600;
+    }
+    
+    li.currentPage {
+    }
+    
+    ul.simplePagerNav li.currentPage a {
+    color:#950a0a;
+    }
+    
+    table.pageme {
+    }
+    
+    table.pageme td {
+     
+    }
+    
+    ul.paging li.sticky {
+    
+    display: block !important
+    }
+
+/*----------------------*/
+.note{
+color: #051d85;
+margin:0 15px;
+margin-bottom:10px;
+width:575px;
+padding-bottom:15px;
+border-bottom:#7688a7 1px dashed;	
+}
+.error{
+color: #F00;
+}
+
+.browse{
+	width:150px; 
+	height:40px;
+	text-align:center; 
+	color:#FFF; 
+	background:url(../images2/btn5Bg.png) no-repeat; 
+	text-decoration:none; 
+	float:left; 
+	border:0; 
+	font-size:1em;
+	padding-bottom:3px;
+	margin-left:-5px;
+}
+
+#slideshowHolder{
+margin-left:9px;
+}
+#ft-buttons-slideshowHolder a{text-decoration:none; color:#07326c; font-weight:600;}
+
+#ft-next-slideshowHolder{background:url(../images2/nextArr.png) no-repeat; width:41px; height:37px;}
+#ft-prev-slideshowHolder{background:url(../images2/prevArr.png) no-repeat; width:41px; height:37px;}
+
+a.ft-prev, a.ft-next{
+font-size:1.1em;
+text-decoration:none;
+font-weight:600;
+}
+
+#detailDiscount{
+	margin-top:-155px; 
+}
+
+.changePass{
+margin:5px 20px;	
+}
+
+.changePass label{width:200px;}
+
+#changePassBtn{margin-left:10px;}
+
+.passwordTxt{color:#3b70f7;height:25px; font-family:"century gothic", sans-serif; font-size:1.05em; border:1px solid #8bb1e1; padding:0 5px; font-weight:600; width:200px;}
+
+.commentLeft, .replyLeft{
+	width:220px;
+	float:left;
+}
+.commentRight{width:400px; float:left; margin-top:9px; margin-left:15px;}
+
+#commentDiv h1{font-size:1.5em; padding:0 15px;; margin:0;}
+#commentDiv h2{font-size:1.3em; padding:0; margin:0; margin-bottom:10px;}
+#commentDiv p.messageContent{padding:0; margin:0; margin-bottom:15px;}
+#commentDiv input[type=text], #commentDiv textarea{color:#3b70f7;height:22px; font-family:"century gothic", sans-serif; font-size:1.05em; border:1px solid #8bb1e1; padding:0 5px; font-weight:600; width:192px; margin-left:15px; display:block; margin-top:5px;}
+#commentDiv textarea{height:100px;}
+#commentDiv input[type=button]{
+	width:75px; 
+	height:27px;
+	text-align:center; 
+	color:#FFF; 
+	background:url(../images3/btn3Bg.png) no-repeat; 
+	text-decoration:none; 
+	float:right; 
+	border:0; 
+	font-size:1em;
+	font-weight:normal;
+	margin:1px;
+	margin-top:5px;
+}
+label.sender{margin:0; padding:0; color:#05365a; font-size:1.1em}
+#commentDiv label, #commentDiv p{margin-left:3px;}
+#commentDiv a.reply, #commentDiv a.delComment{color:#095bb8; float:right; text-decoration:none; font-weight:600; position:relative; right:30px;}
+#commentDiv a.reply:hover, #commentDiv a.delComment:hover{cursor:pointer;}
+
+
+#theme{
+	float:right;	
+	z-index:110;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:2px solid #b74b67;
+	width:170px;
+	height:25px;
+	font-size:1.2em;
+	margin-top:10px;
+	margin-right:10px;
+}

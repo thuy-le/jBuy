@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner img{padding:0; margin:0;margin-top:-3px; }
+.banner{height:346px; padding:0; margin:0;}
+.description{height:67px;}
+.discount{margin-top:-72px;}
+#nav{
+	top:188px;}
+#nav2{
+	top:264px;}

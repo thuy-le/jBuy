@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav{
+	top:193px;}
+#nav2{
+	top:269px;}
+.content .deals .hr2{margin-top:15px;}
+
+.content .deals a.h2{font-size:.7em; margin-top:-10px; padding:0;}
+.content .deals .left{margin-top:-15px; height:115px;}
+.content .deals .left p{padding:0; margin:0;}
+.content .deals{padding-bottom:0;}
+
+#sidebar1 .desc{
+	margin-top:-125px;
+	height:57px;
+}
+.desc{margin-bottom:3px;}

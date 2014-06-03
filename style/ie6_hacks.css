@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.desc{margin-top:-5px;}
+#wrapper{
+	width:960px;}
+	
+.content .ctop{
+height:5px; padding:0;}
+
+.content .deals{
+	margin-top:-10px;padding-bottom:0;}
+	
+.content .deals a.h2{font-size:.7em;}
+.content .deals .left{margin-top:-15px; width:380px; margin-right:0;}
+.content .deals .left p{margin-top:-10px;}
+.content .deals .right{float:right; margin-right:5px; padding-right:0;}
+.content .cbot{margin-top:-1px;}
+#sidebar1 .desc{
+	margin-top:-122px;
+	height:52px;
+	margin-right:-17px;
+}
+#wrapper{
+	width:960px; }
